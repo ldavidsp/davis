@@ -16,7 +16,7 @@ class IndexController extends DavisController {
 	 * @return mixed
 	 */
   public function index() {
-    //return Views::go('welcome.davis');
+    return Views::go('welcome.davis');
   }
 
 	/**
