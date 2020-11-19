@@ -5,13 +5,12 @@
 
 - PHP
 - MVC
-- ORM
-- NodeJs
-- Motor de Plantillas TWIG
+- ORM Enloquent
+- NodeJS
+- Motor de Plantillas TWIG (v3.x)
 - SASS
 - Bootstrap
-- Freewall
-- Gulp
+- Webpack
 - YML
 
 
@@ -23,7 +22,7 @@
 ### Instalacion
 Descargar con Composer
  
-	composer create-project davidsolorzano20/davis davis
+	composer create-project ldavidsp/davis davis
     
 Descargar repositorio e instalar manual
 

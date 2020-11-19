@@ -1,5 +1,5 @@
 {
-  "name": "davidsolorzano20/davis",
+  "name": "ldavidsp/davis",
   "description": "Davis Web Development Framework",
   "keywords": [
     "framework",
@@ -13,40 +13,26 @@
       "email": "luisnic20@gmail.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/davidsolorzano20/davis.git"
-  },
-  "bugs": {
-    "url": "https://github.com/davidsolorzano20/davis/issues"
-  },
-  "homepage": "https://github.com/davidsolorzano20/davis#readme",
+  "homepage": "https://github.com/ldavidsp/davis#readme",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.6",
-    "davidsolorzano20/core": "^2.0@dev",
-    "symfony/YAML": "^3.2",
-    "twig/twig": "^2.1",
-    "illuminate/database": "^5.4",
-    "mikehaertl/php-shellcommand": "dev-master"
+    "php": ">=7.3",
+    "ldavidsp/core": "2.1.*",
+    "nesbot/carbon": "^2.41.5",
+    "symfony/yaml": "5.x-dev",
+    "twig/twig": "3.x-dev",
+    "illuminate/database": "^v8.15.0",
+    "mikehaertl/php-shellcommand": "9999999-dev"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.0.0-dev"
+      "dev-master": "2.1.1-dev"
     }
   },
   "autoload": {
     "psr-4": {
-      "App\\": "app",
-      "Develop\\": "develop"
+      "App\\": "web/app",
+      "Develop\\": "web/develop"
     }
-  },
-  "scripts": {
-    "post-create-project-cmd": [
-      "DavisPostInstall\\Installer::CreateProject"
-    ],
-    "post-install-cmd": [
-      "DavisPostInstall\\Installer::PostInstall"
-    ]
   }
 }

@@ -12,7 +12,17 @@ use Davis\controller\DavisController;
 
 class IndexController extends DavisController {
 
-  public function Index() {
+	/**
+	 * @return mixed
+	 */
+  public function index() {
     return Views::go('welcome.davis');
+  }
+
+	/**
+	 * @return mixed
+	 */
+  public function notFound() {
+    return Views::go('error.404');
   }
 }
