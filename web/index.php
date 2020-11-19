@@ -8,9 +8,12 @@
 
 use Davis\http\thunder\route\router\Routing;
 use Davis\loader\Loader;
+use Dotenv\Dotenv;
 
 require __DIR__ . '/../vendor/autoload.php';
 Routing::Load();
 Loader::Routing();
 Routing::start();
 Loader::Load();
+$dotenv = Dotenv::createUnsafeImmutable(__DIR__);
+$dotenv->load();

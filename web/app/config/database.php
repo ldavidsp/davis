@@ -11,7 +11,7 @@
 $database = [
 	'driver' => 'mysql',
 	'host' => 'localhost',
-	'database' => '',
+	'database' => getenv('MYSQL_DATABASE'),
 	'username' => '',
 	'password' => '',
 	'charset' => 'utf8',

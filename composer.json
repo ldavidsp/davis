@@ -22,7 +22,8 @@
     "symfony/yaml": "5.x-dev",
     "twig/twig": "3.x-dev",
     "illuminate/database": "^v8.15.0",
-    "mikehaertl/php-shellcommand": "9999999-dev"
+    "mikehaertl/php-shellcommand": "9999999-dev",
+    "vlucas/phpdotenv": "5.2.x-dev"
   },
   "extra": {
     "branch-alias": {
