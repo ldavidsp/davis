@@ -16,7 +16,7 @@
   "homepage": "https://github.com/ldavidsp/davis#readme",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.3",
+    "php": ">=7.0",
     "ldavidsp/core": "2.1.*",
     "nesbot/carbon": "^2.41.5",
     "symfony/yaml": "5.x-dev",
